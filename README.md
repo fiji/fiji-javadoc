@@ -1,3 +1,9 @@
-The sole job of this project is to aggregate all the javadoc of the various
-components making up Fiji. They are built and published by the [Jenkins
-Job](http://jenkins.imagej.net/job/Fiji-javadoc/).
+This project aggregates the javadoc of Fiji components.
+
+They are built and published to:
+
+* http://javadoc.imagej.net/Fiji/
+
+By the following Jenkins job:
+
+* http://jenkins.imagej.net/job/Fiji-javadoc/
