@@ -503,10 +503,8 @@
 				</executions>
 				<configuration>
 					<includeDependencySources>true</includeDependencySources>
-					<dependencySourceExcludes>
-							<!-- No need to include the tools -->
-							<dependencySourceExclude>com.sun:*</dependencySourceExclude>
-					</dependencySourceExcludes>
+					<!-- No need to include the tools -->
+					<excludePackageNames>com.sun.*</excludePackageNames>
 				</configuration>
 			</plugin>
 		</plugins>
