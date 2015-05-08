@@ -355,10 +355,6 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
-			<artifactId>Threshold_Colour</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
 			<artifactId>Time_Lapse</artifactId>
 		</dependency>
 		<dependency>
