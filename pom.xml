@@ -64,7 +64,13 @@
 	</dependencyManagement>
 
 	<dependencies>
-		<!-- BigDataViewer dependencies -->
+		<!-- Fiji Is Just ImageJ! -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej</artifactId>
+		</dependency>
+
+		<!-- BigDataViewer projects -->
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>Descriptor_based_registration</artifactId>
@@ -86,9 +92,59 @@
 			<artifactId>spim_data</artifactId>
 		</dependency>
 
-		<!-- TrakEM2 dependencies -->
+		<!-- Core TrakEM2 projects -->
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>mpicbg-trakem2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>T2-NIT</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>T2-TreelineGraph</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>TrakEM2_</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>VectorString</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>jitk</groupId>
+			<artifactId>jitk-tps</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>trakem2_tps</artifactId>
+		</dependency>
 
-		<!-- Fiji dependencies -->
+		<!-- Other TrakEM2 projects -->
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>FS_Align_TrakEM2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>Reconstruct_Reader</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>TrakEM2_Archipelago</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>blockmatching_</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>register_virtual_stack_slices</artifactId>
+		</dependency>
+
+		<!-- Fiji projects -->
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>3D_Blob_Segmentation</artifactId>
@@ -140,6 +196,10 @@
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>Calculator_Plus</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>Cell_Counter</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
@@ -231,6 +291,10 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
+			<artifactId>Image_5D</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
 			<artifactId>Image_Expression_Parser</artifactId>
 		</dependency>
 		<dependency>
@@ -244,6 +308,14 @@
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>Kuwahara_Filter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>LSM_Reader</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>LSM_Toolbox</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
@@ -468,13 +540,6 @@
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>panorama_</artifactId>
-			<!-- NB: Temporary, until a new mpicbg is released. -->
-			<exclusions>
-				<exclusion>
-					<groupId>jama</groupId>
-					<artifactId>jama</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
@@ -485,10 +550,28 @@
 			<artifactId>wavelets</artifactId>
 		</dependency>
 
-		<!-- Third party dependencies -->
+		<!-- SCIFIO projects -->
 		<dependency>
-			<groupId>ca.mcgill</groupId>
-			<artifactId>Sholl_Analysis</artifactId>
+			<groupId>io.scif</groupId>
+			<artifactId>scifio-bf-compat</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.scif</groupId>
+			<artifactId>scifio-hdf5</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.scif</groupId>
+			<artifactId>scifio-lifesci</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.scif</groupId>
+			<artifactId>scifio-ome-xml</artifactId>
+		</dependency>
+
+		<!-- Bio-Formats projects -->
+		<dependency>
+			<groupId>ome</groupId>
+			<artifactId>bio-formats_plugins</artifactId>
 		</dependency>
 	</dependencies>
 
