@@ -48,7 +48,7 @@
 			<dependency>
 				<groupId>sc.fiji</groupId>
 				<artifactId>pom-bigdataviewer</artifactId>
-				<version>1.0.2</version>
+				<version>${pom-bigdataviewer.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
