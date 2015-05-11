@@ -52,6 +52,14 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<!-- TrakEM2 BOM -->
+			<dependency>
+				<groupId>sc.fiji</groupId>
+				<artifactId>pom-trakem2</artifactId>
+				<version>${pom-trakem2.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
