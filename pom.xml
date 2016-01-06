@@ -18,26 +18,24 @@
 	<name>Fiji Javadocs</name>
 	<description>All the Javadocs for Fiji.</description>
 
-	<properties>
-		<javadoc.skip>false</javadoc.skip>
-	</properties>
-
 	<scm>
 		<connection>scm:git:git://github.com/fiji/fiji-javadoc</connection>
 		<developerConnection>scm:git:git@github.com:fiji/fiji-javadoc</developerConnection>
 		<tag>HEAD</tag>
 		<url>http://github.com/fiji/fiji-javadoc/issues</url>
 	</scm>
-
 	<issueManagement>
 		<system>GitHub Issues</system>
 		<url>http://github.com/fiji/fiji-javadoc/issues</url>
 	</issueManagement>
-
 	<ciManagement>
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/Fiji-javadoc/</url>
 	</ciManagement>
+
+	<properties>
+		<javadoc.skip>false</javadoc.skip>
+	</properties>
 
 	<repositories>
 		<repository>
@@ -66,7 +64,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
 	<dependencies>
 		<!-- Fiji Is Just ImageJ! -->
 		<dependency>
@@ -578,6 +575,4 @@
 			<artifactId>bio-formats_plugins</artifactId>
 		</dependency>
 	</dependencies>
-
 </project>
-
