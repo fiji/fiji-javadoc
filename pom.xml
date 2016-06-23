@@ -240,10 +240,6 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
-			<artifactId>FeatureJ_</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
 			<artifactId>Feature_Detection</artifactId>
 		</dependency>
 		<dependency>
@@ -336,10 +332,6 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
-			<artifactId>MTrackJ_</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
 			<artifactId>M_I_P</artifactId>
 		</dependency>
 		<dependency>
@@ -369,10 +361,6 @@
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>RATS_</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>RandomJ_</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
@@ -456,10 +444,6 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
-			<artifactId>TransformJ_</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
 			<artifactId>TurboReg_</artifactId>
 		</dependency>
 		<dependency>
@@ -509,10 +493,6 @@
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>fiji-lib</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>imagescience</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
