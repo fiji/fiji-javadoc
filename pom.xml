@@ -93,12 +93,6 @@
 	</repositories>
 
 	<dependencies>
-		<!-- Fiji Is Just ImageJ! -->
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej</artifactId>
-		</dependency>
-
 		<!-- BigDataViewer projects -->
 		<dependency>
 			<groupId>sc.fiji</groupId>
