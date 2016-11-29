@@ -93,6 +93,12 @@
 	</repositories>
 
 	<dependencies>
+		<!-- ImageJ projects -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>op-finder</artifactId>
+		</dependency>
+
 		<!-- BigDataViewer projects -->
 		<dependency>
 			<groupId>sc.fiji</groupId>
