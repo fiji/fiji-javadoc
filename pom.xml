@@ -248,6 +248,11 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
+			<artifactId>Correct_3D_Drift</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
 			<artifactId>Dichromacy_</artifactId>
 		</dependency>
 		<dependency>
