@@ -74,8 +74,8 @@
 		<url>http://github.com/fiji/fiji-javadoc/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Travis CI</system>
-		<url>https://travis-ci.org/fiji/fiji-javadoc</url>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/Fiji-javadoc/</url>
 	</ciManagement>
 
 	<properties>
