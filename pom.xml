@@ -99,81 +99,7 @@
 			<artifactId>op-finder</artifactId>
 		</dependency>
 
-		<!-- BigDataViewer projects -->
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>Descriptor_based_registration</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>SPIM_Registration</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>bigdataviewer-core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>bigdataviewer_fiji</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>spim_data</artifactId>
-		</dependency>
-
-		<!-- Core TrakEM2 projects -->
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>mpicbg-trakem2</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>T2-NIT</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>T2-TreelineGraph</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>TrakEM2_</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>VectorString</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>jitk</groupId>
-			<artifactId>jitk-tps</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>trakem2_tps</artifactId>
-		</dependency>
-
-		<!-- Other TrakEM2 projects -->
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>FS_Align_TrakEM2</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>Reconstruct_Reader</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>TrakEM2_Archipelago</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>blockmatching_</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
-			<artifactId>register_virtual_stack_slices</artifactId>
-		</dependency>
-
-		<!-- Fiji projects -->
+		<!-- Standard Fiji projects - https://github.com/fiji -->
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>3D_Blob_Segmentation</artifactId>
@@ -249,7 +175,10 @@
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>Correct_3D_Drift</artifactId>
-			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>Descriptor_based_registration</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
@@ -266,6 +195,10 @@
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>Extended_Depth_Field</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>FS_Align_TrakEM2</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
@@ -393,7 +326,15 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
+			<artifactId>Reconstruct_Reader</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
 			<artifactId>SPIM_Opener</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>SPIM_Registration</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
@@ -473,6 +414,10 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
+			<artifactId>TrakEM2_Archipelago</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
 			<artifactId>TurboReg_</artifactId>
 		</dependency>
 		<dependency>
@@ -517,11 +462,19 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
+			<artifactId>blockmatching_</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
 			<artifactId>fiji-compat</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>fiji-lib</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.janelia</groupId>
+			<artifactId>H5J_Loader_Plugin</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
@@ -553,6 +506,10 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
+			<artifactId>register_virtual_stack_slices</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
 			<artifactId>registration_3d</artifactId>
 		</dependency>
 		<dependency>
@@ -560,28 +517,76 @@
 			<artifactId>wavelets</artifactId>
 		</dependency>
 
-		<!-- SCIFIO projects -->
+		<!-- External Fiji projects -->
+		<!-- https://github.com/tferr/ASA -->
 		<dependency>
-			<groupId>io.scif</groupId>
-			<artifactId>scifio-bf-compat</artifactId>
+			<groupId>ca.mcgill</groupId>
+			<artifactId>Sholl_Analysis</artifactId>
 		</dependency>
+		<!-- https://github.com/saalfeldlab/jitk-tps -->
 		<dependency>
-			<groupId>io.scif</groupId>
-			<artifactId>scifio-hdf5</artifactId>
+			<groupId>jitk</groupId>
+			<artifactId>jitk-tps</artifactId>
 		</dependency>
+		<!-- https://github.com/axtimwalde/mpicbg -->
 		<dependency>
-			<groupId>io.scif</groupId>
-			<artifactId>scifio-lifesci</artifactId>
+			<groupId>mpicbg</groupId>
+			<artifactId>mpicbg_</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>io.scif</groupId>
-			<artifactId>scifio-ome-xml</artifactId>
-		</dependency>
-
-		<!-- Bio-Formats projects -->
+		<!-- https://github.com/openmicroscopy/bioformats -->
 		<dependency>
 			<groupId>ome</groupId>
 			<artifactId>bio-formats_plugins</artifactId>
+		</dependency>
+		<!-- https://github.com/saalfeldlab/bigwarp -->
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>bigwarp_fiji</artifactId>
+		</dependency>
+		<!-- https://github.com/saalfeldlab/trakem2-tps -->
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>trakem2_tps</artifactId>
+		</dependency>
+
+		<!-- BigDataViewer projects - https://github.com/bigdataviewer -->
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>bigdataviewer-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>bigdataviewer-vistools</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>bigdataviewer_fiji</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>spim_data</artifactId>
+		</dependency>
+
+		<!-- TrakEM2 projects - https://github.com/trakem2 -->
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>mpicbg-trakem2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>T2-NIT</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>T2-TreelineGraph</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>TrakEM2_</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
+			<artifactId>VectorString</artifactId>
 		</dependency>
 	</dependencies>
 </project>
