@@ -18,7 +18,7 @@
 
 	<name>Fiji Javadocs</name>
 	<description>All the Javadocs for Fiji.</description>
-	<url>http://javadoc.imagej.net/Fiji</url>
+	<url>https://javadoc.scijava.org/Fiji/</url>
 	<inceptionYear>2015</inceptionYear>
 	<organization>
 		<name>Fiji</name>
@@ -74,8 +74,8 @@
 		<url>http://github.com/fiji/fiji-javadoc/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Fiji-javadoc/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/fiji-javadoc</url>
 	</ciManagement>
 
 	<properties>
