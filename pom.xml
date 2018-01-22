@@ -292,6 +292,10 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
+			<artifactId>OMEVisual</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>sc.fiji</groupId>
 			<artifactId>PIV_analyser</artifactId>
 		</dependency>
 		<dependency>
