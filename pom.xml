@@ -439,6 +439,10 @@
 			<artifactId>H5J_Loader_Plugin</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.janelia</groupId>
+			<artifactId>HDF5_Vibez</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>legacy-imglib1</artifactId>
 		</dependency>
