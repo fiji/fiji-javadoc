@@ -489,6 +489,10 @@
 		<!-- https://github.com/axtimwalde/mpicbg -->
 		<dependency>
 			<groupId>mpicbg</groupId>
+			<artifactId>mpicbg</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mpicbg</groupId>
 			<artifactId>mpicbg_</artifactId>
 		</dependency>
 		<!-- https://github.com/openmicroscopy/bioformats -->
