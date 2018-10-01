@@ -439,7 +439,7 @@
 			<artifactId>H5J_Loader_Plugin</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.janelia</groupId>
+			<groupId>sc.fiji</groupId>
 			<artifactId>HDF5_Vibez</artifactId>
 		</dependency>
 		<dependency>
