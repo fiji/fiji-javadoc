@@ -79,6 +79,7 @@
 	</ciManagement>
 
 	<properties>
+		<automatic-module-name>sc.fiji.javadoc</automatic-module-name>
 		<license.licenseName>gpl_v3</license.licenseName>
 		<license.copyrightOwners>Fiji developers.</license.copyrightOwners>
 	</properties>
