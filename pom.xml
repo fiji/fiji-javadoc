@@ -482,6 +482,11 @@
 			<groupId>ca.mcgill</groupId>
 			<artifactId>Sholl_Analysis</artifactId>
 		</dependency>
+		<!-- https://github.com/morphonets/SNT -->
+		<dependency>
+			<groupId>org.morphonets</groupId>
+			<artifactId>SNT</artifactId>
+		</dependency>		
 		<!-- https://github.com/saalfeldlab/jitk-tps -->
 		<dependency>
 			<groupId>jitk</groupId>
