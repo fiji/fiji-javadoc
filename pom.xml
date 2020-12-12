@@ -329,10 +329,6 @@
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
-			<artifactId>Simple_Neurite_Tracer</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>sc.fiji</groupId>
 			<artifactId>Siox_Segmentation</artifactId>
 		</dependency>
 		<dependency>
@@ -477,11 +473,6 @@
 		</dependency>
 
 		<!-- External Fiji projects -->
-		<!-- https://github.com/tferr/ASA -->
-		<dependency>
-			<groupId>ca.mcgill</groupId>
-			<artifactId>Sholl_Analysis</artifactId>
-		</dependency>
 		<!-- https://github.com/morphonets/SNT -->
 		<dependency>
 			<groupId>org.morphonets</groupId>
