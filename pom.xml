@@ -477,6 +477,8 @@
 		<dependency>
 			<groupId>org.morphonets</groupId>
 			<artifactId>SNT</artifactId>
+			<!-- TEMP: until pom-scijava 30.0.0 is released.-->
+			<version>RELEASE</version>
 		</dependency>		
 		<!-- https://github.com/saalfeldlab/jitk-tps -->
 		<dependency>
